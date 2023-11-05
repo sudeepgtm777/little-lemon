@@ -7,22 +7,17 @@ const Nav = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
   return (
     <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
       <a href="/" className="logo">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="" />
       </a>
-
-      {/* Mobile navbar */}
-      <div>
-        <div className="menu-icon" onClick={toggleMenu}>
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
-        </div>
+      <div className="menu-icon" onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
       </div>
-
-      {/* Nav items */}
       <ul className={`nav-links ${menuOpen ? 'visible' : ''}`}>
         <li>
           <a href="/">Home</a>
@@ -40,7 +35,7 @@ const Nav = () => {
           <a href="/">Reservations</a>
         </li>
         <li>
-          <a href="/">Order Online</a>
+          <a href="/booking">Order Online</a>
         </li>
         <li>
           <a href="/">Login</a>
