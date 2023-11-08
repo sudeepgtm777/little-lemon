@@ -7,7 +7,7 @@ const Footer = () => {
       <section>
         <div className="company-info">
           <img src={small_logo} alt="" />
-          <p>We are a family owned Mediterraneran restaurant, focused on traditional recipes servred with a modern twist.</p>
+          <p>We are a family owned Mediterraneran restaurant, focused on traditional recipes servred with a modern twist. We provide the best service.</p>
         </div>
         <div>
           <h3>Important Links</h3>
