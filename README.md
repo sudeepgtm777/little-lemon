@@ -16,9 +16,9 @@ This website showcased implementing a booking application on the Little Lemon We
     <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript" target="_blank"><img src="https://github.com/sonaliidas/tool-icons-devicon/blob/master/icons/javascript/javascript-original.svg" alt="j s" width="40" height="40"/></a></code>&nbsp;
 </div>
 
--> HTML: Used for the structure of the web pages <br>
--> CSS: Used for styling the web pages<br>
--> React hooks: Used to manage state and handle user interactions<br>
+↦ HTML: Used for the structure of the web pages <br>
+↦ CSS: Used for styling the web pages<br>
+↦ React hooks: Used to manage state and handle user interactions<br>
 
 ## Screenshots
 
